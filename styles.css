@@ -2,165 +2,182 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-weight: 500;
+    font-family: Poppins;
+}
+.hero{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    width: 98.7vw;
+}
+.nav-bar{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px; 
+}
+.nav-bar img{
+    height: 30px;
+}
+.nav-bar button{
+    margin-left: 980px;
+    padding: 12px 55px;
+    border-radius: 30px;
+    border-style: none;
+    color: #034c5e;
+    background-color: white;
+    font-weight: 600;
+    box-shadow: 3px 3px 5px #4a6065;
 }
 .firstdiv{
     display: flex;
-    height: 80vh;
-    font-family: poppins;
-    padding-left: 70px;
-}
-.sec-two img{
-    height: 70vh;
-    padding-right: 50px;
-    padding-top:30px ;
+    padding-bottom: 50px;
+    padding-left: 80px; 
+    padding-right: 80px;
+    /* font-size: 20px; */
 }
 .sec-one{
-    font-family: poppins;
-    /* padding-right: 200px; */
-    margin-right:100px ;
     align-content: center;
+    font-weight: 600;
 }
 .sec-one button{
+    padding: 15px 65px;
+    border-radius: 30px;
+    border-style: none;
     background-color: hsl(322, 100%, 66%);
-    width: 250px;
-    height: 47px;
-    border-radius: 30px;
-    border-style: none;
-    color: #f1eded;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
 }
-.hero{
-    background-image:url(images/bg-hero-desktop.svg) ;
-    background-color: hsl(193, 100%, 96%);
-}
-ul button{
-    margin-left: 60vw;
-    padding: 10px 80px;
-    border-radius: 30px;
-    border-style: none;
-    background-color: rgb(239, 239, 246);
-    /* outline: 1px solid; */
-    font-family: poppins;
-    box-shadow: 4px 4px 5px #929191;
-    color: #00252E;
-    font-weight: 500;
-}
-ul button :focus {
-    border-radius: 30px;
-    border-style: none;
-    background-color: rgb(239, 239, 246);
-    /* outline: 1px solid; */
-    font-family: poppins;
-    box-shadow: 4px 4px 5px #929191;
-    color: silver;
-    font-weight: 500;
-    cursor: pointer;
+.sec-two img{
+    height: 65vh;
+    padding-left: 200px;
 }
 .first-child{
+    margin-left: 80px;
+    margin-right: 80px;
     display: flex;
-    border-radius: 15px;
-    width: 70vw; 
-    height: 45vh; 
-    margin-left: 15vw;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    box-shadow: 4px -4px 3px #f1eded;
-    font-family: poppins;
-}
-.child{
-    display: flex;
-    border-radius: 15px;
-    width: 70vw; 
-    height: 45vh; 
-    margin-left: 15vw;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    box-shadow: 4px -4px 3px #f1eded;
-    
+    box-sizing: content-box;
+    box-shadow: 3px 3px 5px #4a6065;
+    border-radius: 10px;
+    height:45vh ;
+    padding-right:30px ;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 120px;
 }
 .txts{
+    text-align: start;
     align-content: center;
-    margin: 80px;
-    font-family: poppins;
+    padding-right: 220px;
+    /* font-size: 20px; */
 }
-.child img{
-    padding: 20px 37px;
+.first-child img{
+    height: 40vh;
+    padding-right: 80px;
+}
+.child{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 5px #4a6065;
+    border-radius: 10px;
+    margin-top: 70px;
+    height:45vh ;
+    padding-right:30px ;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+.txt{
+    text-align: start;
+    align-content: center;
+    padding-left: 150px;
+    /* font-size: 20px; */
+    padding-right: 70px;
 }
 .last-child{
+    margin-left: 80px;
+    margin-right: 80px;
     display: flex;
-    border-radius: 15px;
-    width: 70vw; 
-    height: 45vh; 
-    margin-left: 15vw;
-    margin-top: 30px;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 5px #4a6065;
+    border-radius: 10px;
+    margin-top: 70px;
+    height:45vh ;
+    padding-right:30px ;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 60px;
     margin-bottom: 150px;
-    box-shadow: 4px -4px 2px #f1eded;
-    font-family: Poppins;
-    /* font-weight: 500; */
+}
+.txts{
+    text-align: start;
+    align-content: center;
+    padding-right: 220px;
+    /* font-size: 20px; */
+}
+.last-child img{
+     padding-right: 80px;
 }
 .third-sect{
-    margin-left: 600px;
-    background-color: #fff;
-    width:30vw;
-    text-align: center;
-    padding-top: 30px;
-    height: 20vh;
+    justify-items: center; 
+    box-shadow: 3px -3px 5px #7d9da4;
+    width:40vw;
+    height: 30vh;
+    justify-self: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: white;
     position: relative;
-    box-shadow: 4px -4px 2px #f1eded;
-    margin-bottom:30px;
-    font-family: Poppins;
-    font-weight: 500;
+    margin-bottom: -70px;
 }
 .third-sect button{
+    padding: 19px 73px;
     border-radius: 30px;
-    width: 250px;
-    height: 45px; ;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
     border-style: none;
-    background:  hsl(322, 100%, 66%);
-    box-shadow: 4px 4px 5px #d0cfcf;
-    color: #fff;
-    font-family: poppins;
 }
 .footer{
+    background-color: hsl(192, 100%, 9%);
     display: flex;
-    background-color:#00252E;
-    height: 36vh;
-    padding-top: 50px;
-    padding-left: 120px;
-    margin-top: -90px;
+    padding-left: 150px;
+    height: 50vh; 
+    padding-top: 150px;
+    color:#d5f4fb;">   
+    /* font-size: 15px;git */
+}
+.imgandtxt img{
+    height: 20px;
+    padding-top: 15px; 
+    padding-right: 10px;  
 }
 .imgandtxt{
     display: flex;
-    padding-left: 50px;
-    color:silver ;
+    padding-right:150px ;
 }
-.imgandtxt img{
-    padding-right: 20px;
-    padding-top: 15px;
-    width: 30px;
-    height: 20px;
+.imgandtxt p{
+    padding-left: 20px;
+    text-align: start;
 }
 .sec-part{
     display: flex;
-    padding-top: 100px;
-    padding-left: 90px;
+    /* align-items: center; */
 }
-.first-set a{
-    text-decoration: none;
-    color: silver;
-}
-.first-set li{
-    list-style: none;
-    padding-bottom: 30px;
-}
-.sec-set a{
-    text-decoration: none;
-    color: silver;
-}
-.sec-set li{
-    list-style: none;
-    padding-bottom: 30px;
+.first-set{
+    padding-top: 62px;
+    padding-right: 150px;
 }
 .sec-set{
-    padding-left: 90px;
+    padding-top: 62px;
+    padding-right: 150px;
+}
+.sec-set p:hover{
+    text-decoration: dashed;
+    cursor: pointer;
 }
