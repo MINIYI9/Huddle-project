@@ -37,7 +37,7 @@ body{
 }
 .sec-one{
     align-content: center;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 .sec-one button{
     padding: 15px 65px;
@@ -56,8 +56,7 @@ body{
     margin-left: 80px;
     margin-right: 80px;
     display: flex;
-    box-sizing: content-box;
-    box-shadow: 3px 3px 5px #4a6065;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.108);
     border-radius: 10px;
     height:45vh ;
     padding-right:30px ;
@@ -81,7 +80,7 @@ body{
     margin-right: 80px;
     display: flex;
     box-sizing: content-box;
-    box-shadow: 3px 3px 5px #4a6065;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.108);
     border-radius: 10px;
     margin-top: 70px;
     height:45vh ;
@@ -94,16 +93,16 @@ body{
 .txt{
     text-align: start;
     align-content: center;
-    padding-left: 150px;
+    padding-left: 190px;
     /* font-size: 20px; */
-    padding-right: 70px;
+    padding-right: 100px;
 }
 .last-child{
     margin-left: 80px;
     margin-right: 80px;
     display: flex;
     box-sizing: content-box;
-    box-shadow: 3px 3px 5px #4a6065;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.108);
     border-radius: 10px;
     margin-top: 70px;
     height:45vh ;
@@ -125,7 +124,7 @@ body{
 }
 .third-sect{
     justify-items: center; 
-    box-shadow: 3px -3px 5px #7d9da4;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.108);
     width:40vw;
     height: 30vh;
     justify-self: center;
@@ -149,7 +148,7 @@ body{
     padding-left: 150px;
     height: 50vh; 
     padding-top: 150px;
-    color:#d5f4fb;">   
+    color:#d5f4fb;   
     /* font-size: 15px;git */
 }
 .imgandtxt img{
@@ -177,7 +176,11 @@ body{
     padding-top: 62px;
     padding-right: 150px;
 }
-.sec-set p:hover{
+/* .sec-set p:hover{
     text-decoration: dashed;
-    cursor: pointer;
+    cursor: pointer; */
+}
+.About:hover{
+    text-decoration: dashed;
+    cursor:pointer;
 }
